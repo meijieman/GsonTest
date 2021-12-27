@@ -1,0 +1,127 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:packageDebug UP-TO-DATE
+> Task :app:bundleDebugClasses UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:compileDebugAndroidTestAidl NO-SOURCE
+> Task :app:processDebugAndroidTestManifest UP-TO-DATE
+> Task :app:compileDebugAndroidTestRenderscript NO-SOURCE
+> Task :app:generateDebugAndroidTestBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :app:mainApkListPersistenceDebugAndroidTest UP-TO-DATE
+> Task :app:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :app:generateDebugAndroidTestResources UP-TO-DATE
+> Task :app:mergeDebugAndroidTestResources UP-TO-DATE
+> Task :app:processDebugAndroidTestResources UP-TO-DATE
+> Task :app:compileDebugAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugAndroidTestShaders UP-TO-DATE
+> Task :app:compileDebugAndroidTestShaders UP-TO-DATE
+> Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :app:processDebugAndroidTestJavaRes NO-SOURCE
+> Task :app:mergeDebugAndroidTestJavaResource UP-TO-DATE
+> Task :app:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugAndroidTestNativeLibs UP-TO-DATE
+> Task :app:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:mergeLibDexDebugAndroidTest UP-TO-DATE
+> Task :app:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebugAndroidTest UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebugAndroidTest UP-TO-DATE
+> Task :app:mergeProjectDexDebugAndroidTest UP-TO-DATE
+> Task :app:validateSigningDebugAndroidTest UP-TO-DATE
+> Task :app:signingConfigWriterDebugAndroidTest UP-TO-DATE
+> Task :app:packageDebugAndroidTest UP-TO-DATE
+
+> Task :app:connectedDebugAndroidTest
+10:23:09 V/ddms: execute: running am get-config
+10:23:09 V/ddms: execute 'am get-config' on '1234567' : EOF hit. Read: -1
+10:23:09 V/ddms: execute: returning
+10:23:09 D/app-debug.apk: Uploading app-debug.apk onto device '1234567'
+10:23:09 D/Device: Uploading file onto device '1234567'
+10:23:09 D/ddms: Reading file permision of /Users/meijie05/04_git/MyApplication/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+10:23:09 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug.apk"
+10:23:09 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug.apk"' on '1234567' : EOF hit. Read: -1
+10:23:09 V/ddms: execute: returning
+10:23:09 V/ddms: execute: running rm "/data/local/tmp/app-debug.apk"
+10:23:09 V/ddms: execute 'rm "/data/local/tmp/app-debug.apk"' on '1234567' : EOF hit. Read: -1
+10:23:09 V/ddms: execute: returning
+10:23:09 D/app-debug-androidTest.apk: Uploading app-debug-androidTest.apk onto device '1234567'
+10:23:09 D/Device: Uploading file onto device '1234567'
+10:23:09 D/ddms: Reading file permision of /Users/meijie05/04_git/MyApplication/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk as: rw-r--r--
+10:23:09 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug-androidTest.apk"
+10:23:09 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug-androidTest.apk"' on '1234567' : EOF hit. Read: -1
+10:23:09 V/ddms: execute: returning
+10:23:09 V/ddms: execute: running rm "/data/local/tmp/app-debug-androidTest.apk"
+10:23:09 V/ddms: execute 'rm "/data/local/tmp/app-debug-androidTest.apk"' on '1234567' : EOF hit. Read: -1
+10:23:09 V/ddms: execute: returning
+10:23:09 I/RemoteAndroidTest: Running am instrument -w -r   com.major.myapplication.test/androidx.test.runner.AndroidJUnitRunner on HENGCHI - 9
+10:23:09 V/ddms: execute: running am instrument -w -r   com.major.myapplication.test/androidx.test.runner.AndroidJUnitRunner
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: class=com.major.myapplication.ExampleInstrumentedTest
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: current=1
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: numtests=1
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: stream=
+10:23:10 V/InstrumentationResultParser: com.major.myapplication.ExampleInstrumentedTest:
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: test=useAppContext
+Starting 1 tests on HENGCHI - 9
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS_CODE: 1
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: class=com.major.myapplication.ExampleInstrumentedTest
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: current=1
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: numtests=1
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: stream=.
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS: test=useAppContext
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_STATUS_CODE: 0
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_RESULT: stream=
+10:23:10 V/InstrumentationResultParser: 
+10:23:10 V/InstrumentationResultParser: Time: 0.014
+10:23:10 V/InstrumentationResultParser: 
+10:23:10 V/InstrumentationResultParser: OK (1 test)
+10:23:10 V/InstrumentationResultParser: 
+10:23:10 V/InstrumentationResultParser: 
+10:23:10 V/InstrumentationResultParser: INSTRUMENTATION_CODE: -1
+10:23:10 V/InstrumentationResultParser: 
+10:23:10 I/XmlResultReporter: XML test result file generated at /Users/meijie05/04_git/MyApplication/app/build/outputs/androidTest-results/connected/TEST-HENGCHI - 9-app-.xml. Total tests 1, passed 1, 
+10:23:10 V/ddms: execute 'am instrument -w -r   com.major.myapplication.test/androidx.test.runner.AndroidJUnitRunner' on '1234567' : EOF hit. Read: -1
+10:23:10 V/ddms: execute: returning
+10:23:10 V/ddms: execute: running pm uninstall com.major.myapplication.test
+10:23:10 V/ddms: execute 'pm uninstall com.major.myapplication.test' on '1234567' : EOF hit. Read: -1
+10:23:10 V/ddms: execute: returning
+10:23:10 V/ddms: execute: running pm uninstall com.major.myapplication
+10:23:10 V/ddms: execute 'pm uninstall com.major.myapplication' on '1234567' : EOF hit. Read: -1
+10:23:10 V/ddms: execute: returning
+
+> Task :app:connectedAndroidTest
+
+BUILD SUCCESSFUL in 3s
+51 actionable tasks: 1 executed, 50 up-to-date
